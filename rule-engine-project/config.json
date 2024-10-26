@@ -1,0 +1,13 @@
+{
+  "valid_attributes": ["age", "department", "salary", "experience"],
+  "rules": [
+    "((age > 30 AND department = 'Sales') OR (age < 25 AND department = 'Marketing')) AND (salary > 50000 OR experience > 5)",
+    "((age > 30 AND department = 'Marketing')) AND (salary > 20000 OR experience > 5)"
+  ],
+  "user_data": {
+    "age": 35,
+    "department": "Sales",
+    "salary": 60000,
+    "experience": 3
+  }
+}

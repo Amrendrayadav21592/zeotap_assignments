@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+*.pyo
+.env
+daily_weather_summary.csv
